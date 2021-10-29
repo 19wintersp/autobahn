@@ -1,0 +1,20 @@
+[package]
+name = "autobahn-server"
+version = "0.2.0"
+authors = [ "Patrick Winters <19wintersp@gmail.com>" ]
+edition = "2018"
+description = "The server part of Autobahn"
+readme = "../readme.md"
+license = "GPL-3.0-or-later"
+
+[dependencies]
+toml = "0.5.8"
+minicbor = { version = "0.11.3", features = [ "std" ] }
+serde_derive = "1.0.125"
+serde = "1.0.125"
+websocket = "0.26.2"
+libc = "0.2.103"
+log = "0.4.14"
+simple_logger = "1.13.0"
+num_enum = "0.5.4"
+clap = "2.33.3"
