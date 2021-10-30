@@ -4,7 +4,7 @@
 
 Hybrid SSH/HTTP server for Replit. Based on [leon332157/replish](https://github.com/leon332157/replish).
 
-Autobahn runs a server running SSH, connected to a TCP to WebSocket proxy server. Autobahn intercepts incoming traffic and redirects it either through to existing servers, or onto the Autobahn server.
+Autobahn runs a WebSocket server using a special protocol, connected to a TCP-WebSocket proxy server. Autobahn intercepts incoming traffic and redirects it either through to already-listening servers on the computer, or onto the WebSocket server.
 
 Licensed under the GNU GPL (3.0 or later).
 
