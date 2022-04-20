@@ -1,3 +1,5 @@
+![Autobahn banner](assets/autobahn-banner.png)
+
 # Autobahn
 
 **A remote shell, TCP tunnel and HTTP proxy for Replit.**
